@@ -21,7 +21,22 @@
             <img src="https://i.ytimg.com/vi/q1pRvSZOct0/maxresdefault.jpg" jsaction>
             <div class="categoria">esportes</div>
             <h2> titulo da noticia </h2>
-            <a href="a"> veja mais </a>
+            <p>lorem ipsum amet solo,lorem ipsum solo amet </p>
+            <a href="#"> veja mais </a>
+        </li>
+        <li>
+            <img src="https://i.ytimg.com/vi/q1pRvSZOct0/maxresdefault.jpg" jsaction>
+            <div class="categoria">esportes</div>
+            <h2> titulo da noticia </h2>
+            <p>lorem ipsum amet solo,lorem ipsum solo amet </p>
+            <a href="#"> veja mais </a>
+        </li>
+        <li>
+            <img src="https://i.ytimg.com/vi/q1pRvSZOct0/maxresdefault.jpg" jsaction>
+            <div class="categoria">esportes</div>
+            <h2> titulo da noticia </h2>
+            <p>lorem ipsum amet solo,lorem ipsum solo amet </p>
+            <a href="#"> veja mais </a>
         </li>
     </ul>
 </section>
@@ -37,8 +52,9 @@ header{
 height: 150px;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: space-between;
 border: 1px solid black;
+
 }
 header nav ul{
 display: flex;
@@ -69,11 +85,16 @@ section#noticias ul li{
     margin: 0 auto;
     border: 1px solid black;
 }
+section#noticias ul{
+          display:flex;
+
+}
 section#noticias ul li{
     list-style: none;
     width: 350px;
-    height: 350px;
-    background: gray;
+    height: 350px; 
+    margin:5px;
+
 }
 section#noticia img{
     text-align: center;
@@ -99,10 +120,21 @@ section#noticias h3{
     margin: 25px 0;
     text-transform: uppercase;
 }
+
 section#noticias ul li a{
     text-align: center;
     font-size: 19px;
     color: white;
     background: red;
+    display:block;
+    padding:5px 0;
 }
+section#noticias ul li a:hover{
+    background:blue;
+}
+section#noticias ul li p{
+    text-align:center;
+    margin:15px 0;
+}
+
 </style>
